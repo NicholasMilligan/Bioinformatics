@@ -14,6 +14,6 @@ def main ():
     '''Ask the user for a sequence'''
     DNAseq = input('Input DNA sequence:')
     newSeq = NucCount()
-    newSeq.parse(DNAseq)
+    newSeq.parse(DNAseq.upper())
 
 main()

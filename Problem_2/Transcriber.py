@@ -10,6 +10,6 @@ class DNAtoRNA (str):
 def main():
     DNAseq = input('Input DNA sequence:')
     newSeq = DNAtoRNA()
-    newSeq.transcribe(DNAseq)
+    newSeq.transcribe(DNAseq.upper())
 
 main()
